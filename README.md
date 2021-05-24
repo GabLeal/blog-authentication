@@ -17,4 +17,24 @@ passport-http-bearer
 
 redis
 
-https://redis.io/download
+# Blog simples para validar autenticação nas requisições
+
+##Para rodar este projeto você precisa
+
+1. clonar este repositorio atrés do comando abaixo em seu terminal
+
+```
+https://github.com/GabLeal/blog-authentication.git
+```
+
+2. Dentro da pasto do projeto baixe as dependencias
+
+with Flutter:
+
+```
+npm install
+```
+
+3. Instale o redis no sua máquina.
+  https://redis.io/download
+
