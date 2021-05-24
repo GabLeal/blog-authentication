@@ -5,6 +5,10 @@ module.exports = app => {
   app
     .route('/usuario/login')
     .post(middlewaresAutentication.local,usuariosControlador.login)
+  
+  app
+  .route('/usuario/logout')
+  .get(middlewaresAutentication.bearer,usuariosControlador.logout)
 
 
   app

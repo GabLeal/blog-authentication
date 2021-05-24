@@ -14,3 +14,7 @@
 node -e "console.log(require('crypto').randomBytes(256).toString('base64'))"
 
 passport-http-bearer
+
+redis
+
+https://redis.io/download
